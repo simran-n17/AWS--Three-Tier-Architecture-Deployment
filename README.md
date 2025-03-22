@@ -1,5 +1,4 @@
-
-AWS Three-Tier Architecture Deployment
+## AWS Three-Tier Architecture Deployment
 
 ## Overview
 This project involves the deployment of a **three-tier architecture** on **Amazon Web Services (AWS)**. The architecture consists of a **presentation layer**, **application layer**, and **data layer**, implemented using various AWS services such as **EC2**, **RDS**, **Lambda**, **API Gateway**, and **CloudWatch**. The project was completed as part of an assignment for the **Cloud Security and Management** course at the **University of Petroleum and Energy Studies (UPES)**.
