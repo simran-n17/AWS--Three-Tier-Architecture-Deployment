@@ -1,6 +1,4 @@
 
----
-
 AWS Three-Tier Architecture Deployment
 
 ## Overview
