@@ -24,24 +24,42 @@ This project involves the deployment of a **three-tier architecture** on **Amazo
    - **AWS CloudWatch**: Monitors the performance and health of the application.
 
 ---
-
+**Screenshot Placeholder**: *![AWS 3-Tier Architecture](https://github.com/user-attachments/assets/d2d2b0d8-c458-4cbf-93c9-01bc18b0defc)
+*
 ## Environment Setup
 
 ### Steps:
 1. **Account Setup**:
    - Logged into the AWS Management Console and accessed services like EC2, Lambda, API Gateway, and RDS.
 
+     **Screenshot Placeholder**: *![AWS 3- Tier Architecture Account Login](https://github.com/user-attachments/assets/896beb57-c825-4def-8e06-e5fe8931979a)
+
+*
+
 2. **VPC and Subnets**:
    - Created a **Virtual Private Cloud (VPC)** with subnets for public and private resources.
    - Configured **Route Tables**, **Internet Gateway**, and **NAT Gateway** for network connectivity.
 
+ **Screenshot Placeholder**: *![AWS 3-Tier Architecture- VPC](https://github.com/user-attachments/assets/b892de2f-bcad-4a81-99f0-7a848c70df21)
+*
+ **Screenshot Placeholder**: *![AWS 3-Tier Architecture- Subnets](https://github.com/user-attachments/assets/a34825b4-91a5-43fe-bd71-6938db7a1daa)
+*
+ **Screenshot Placeholder**: *![AWS 3-Tier Architecture- Route Tables](https://github.com/user-attachments/assets/a48a3f04-98ce-446c-8170-663d3f37ca88)
+*
+ **Screenshot Placeholder**: *![AWS 3-Tier Architecture-Nat Gateways](https://github.com/user-attachments/assets/c14a86f4-d388-4ef0-b2cf-f43368ecfeb1)
+*
 3. **Database Setup**:
    - Created an **RDS MySQL** database instance.
    - Configured **security groups** to allow access from the application layer.
+      **Screenshot Placeholder**: *![AWS 3-Tier Architectre-Database](https://github.com/user-attachments/assets/9aae4ce6-9638-40ea-a54a-c8ebf191960e)
+*
 
 4. **Lambda and API Gateway**:
    - Deployed a **Lambda function** to handle backend logic.
    - Integrated the Lambda function with **API Gateway** to expose RESTful APIs.
+
+      **Screenshot Placeholder**: *![AWS 3-Tier Architecture Backend](https://github.com/user-attachments/assets/9af667c6-cbb9-49cf-a70a-1c956b382009)
+*
 
 5. **EC2 Web Application**:
    - Launched an **EC2 instance** with Apache Web Server to host the frontend application.
@@ -54,6 +72,11 @@ This project involves the deployment of a **three-tier architecture** on **Amazo
 - **Database Connectivity**: Verified that the Lambda function could connect to the RDS instance.
 - **API Gateway**: Tested API endpoints to ensure proper integration with the Lambda function.
 - **Web Application**: Confirmed that the EC2-hosted web application could communicate with the backend APIs.
+
+  **Screenshot Placeholder**: *![AWS 3-Tier Architecure-Testing-Verification](https://github.com/user-attachments/assets/65589e68-45e3-4861-8821-b5f7188724b8)
+
+*
+
 
 ---
 
